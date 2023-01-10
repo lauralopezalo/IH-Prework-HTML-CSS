@@ -1,0 +1,53 @@
+.header-container {
+    background-image: url("../img/header.jpg");
+    background-position: 25% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140px;
+    position: relative;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-top: none !important;
+}
+
+
+.web-title {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    text-align: center;
+}
+
+.web-title {
+    color: grey;
+}
+
+.web-title span {
+    color: fuchsia;
+}
+
+
+
+
+
+
+/* -------------------- @TABLET -------------------- */
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+/* -------------------- @MOBILE -------------------- */
+
+@media screen and (max-width: 480px) {
+
+    header {
+        background-size: cover;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+}

@@ -1,0 +1,45 @@
+main {
+    display: grid;
+    grid-template-areas: "aside section section";
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.design-title {
+    color: fuchsia;
+}
+
+aside span {
+    font-weight: bold;
+}
+
+hr {
+    margin: 10px 0;
+    border-color: rgb(247, 247, 247);
+}
+
+section p {
+    margin-top: 10px;
+}
+
+.article-card>div {
+    width: 90%;
+}
+
+.align-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+/* ---------------------------------------- */
+
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-areas:
+            "section"
+            "aside";
+    }
+}

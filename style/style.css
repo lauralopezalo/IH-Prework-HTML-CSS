@@ -1,0 +1,50 @@
+@import url(./header.css);
+@import url(./main-content.css);
+
+:root {
+  --border: 8px solid white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 10px 20px;
+  background-color: lightgrey;
+}
+
+h2 {
+  color: #535353;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), repeating-linear-gradient(125deg,
+  rgba(0, 0, 0, 0) 10px,
+  rgba(0, 0, 0, 0) 20px,
+  #d3d3d3 20px,
+  #d3d3d3 30px);
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  color: fuchsia;
+}
+
+.card {
+  border: var(--border);
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  margin-bottom: 10px;
+  padding: 0 10px 10px 10px;
+}
